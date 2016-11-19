@@ -1,0 +1,417 @@
+exports[`<TabBar /> render TabBar 1`] = `
+<View
+  onLayout={[Function bound _handleLayout]}
+  style={
+    Array [
+      Object {
+        "flex": 1
+      },
+      undefined
+    ]
+  }>
+  <View
+    style={
+      Array [
+        Object {
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "space-around"
+        },
+        Object {
+          "backgroundColor": null
+        },
+        Object {
+          "borderColor": "#F78B6D",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 40,
+          "justifyContent": "space-around"
+        }
+      ]
+    }>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel="first page"
+      accessibilityTraits="button"
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function bound touchableHandleResponderGrant]}
+      onResponderMove={[Function bound touchableHandleResponderMove]}
+      onResponderRelease={[Function bound touchableHandleResponderRelease]}
+      onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+      onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+      onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+      style={
+        Object {
+          "flex": 1,
+          "opacity": 1
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingBottom": 10
+            },
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingTop": 7
+            }
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#F78B6D",
+                "fontWeight": "bold"
+              },
+              Object {
+                "fontSize": 16
+              }
+            ]
+          }>
+          first page
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel="Second page"
+      accessibilityTraits="button"
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function bound touchableHandleResponderGrant]}
+      onResponderMove={[Function bound touchableHandleResponderMove]}
+      onResponderRelease={[Function bound touchableHandleResponderRelease]}
+      onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+      onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+      onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+      style={
+        Object {
+          "flex": 1,
+          "opacity": 1
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingBottom": 10
+            },
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingTop": 7
+            }
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontWeight": "normal"
+              },
+              Object {
+                "fontSize": 16
+              }
+            ]
+          }>
+          Second page
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F78B6D",
+          "bottom": 0,
+          "height": 4,
+          "left": 0,
+          "position": "absolute",
+          "width": 187.5
+        }
+      } />
+  </View>
+  <ScrollView
+    alwaysBounceVertical={false}
+    automaticallyAdjustContentInsets={false}
+    contentOffset={
+      Object {
+        "x": 0
+      }
+    }
+    directionalLockEnabled={true}
+    horizontal={true}
+    keyboardDismissMode="on-drag"
+    onMomentumScrollBegin={[Function bound _onMomentumScrollBeginAndEnd]}
+    onMomentumScrollEnd={[Function bound _onMomentumScrollBeginAndEnd]}
+    onScroll={[Function onScroll]}
+    pagingEnabled={true}
+    scrollEnabled={true}
+    scrollEventThrottle={16}
+    scrollsToTop={false}
+    showsHorizontalScrollIndicator={false}>
+    <View
+      style={
+        Object {
+          "width": 375
+        }
+      }>
+      <View
+        style={
+          Object {
+            "flex": 1
+          }
+        }
+        tabLabel="first page" />
+    </View>
+    <View
+      style={
+        Object {
+          "width": 375
+        }
+      }>
+      <View
+        tabLabel="Second page" />
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`<TabBar /> render TabBar with initial page 1`] = `
+<View
+  onLayout={[Function bound _handleLayout]}
+  style={
+    Array [
+      Object {
+        "flex": 1
+      },
+      undefined
+    ]
+  }>
+  <View
+    style={
+      Array [
+        Object {
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "space-around"
+        },
+        Object {
+          "backgroundColor": null
+        },
+        Object {
+          "borderColor": "#F78B6D",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 40,
+          "justifyContent": "space-around"
+        }
+      ]
+    }>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel="First page"
+      accessibilityTraits="button"
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function bound touchableHandleResponderGrant]}
+      onResponderMove={[Function bound touchableHandleResponderMove]}
+      onResponderRelease={[Function bound touchableHandleResponderRelease]}
+      onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+      onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+      onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+      style={
+        Object {
+          "flex": 1,
+          "opacity": 1
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingBottom": 10
+            },
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingTop": 7
+            }
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#F78B6D",
+                "fontWeight": "bold"
+              },
+              Object {
+                "fontSize": 16
+              }
+            ]
+          }>
+          First page
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel="Second page"
+      accessibilityTraits="button"
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function bound touchableHandleResponderGrant]}
+      onResponderMove={[Function bound touchableHandleResponderMove]}
+      onResponderRelease={[Function bound touchableHandleResponderRelease]}
+      onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+      onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+      onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+      style={
+        Object {
+          "flex": 1,
+          "opacity": 1
+        }
+      }
+      testID={undefined}>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingBottom": 10
+            },
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingTop": 7
+            }
+          ]
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontWeight": "normal"
+              },
+              Object {
+                "fontSize": 16
+              }
+            ]
+          }>
+          Second page
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F78B6D",
+          "bottom": 0,
+          "height": 4,
+          "left": 0,
+          "position": "absolute",
+          "width": 187.5
+        }
+      } />
+  </View>
+  <ScrollView
+    alwaysBounceVertical={false}
+    automaticallyAdjustContentInsets={false}
+    contentOffset={
+      Object {
+        "x": 0
+      }
+    }
+    directionalLockEnabled={true}
+    horizontal={true}
+    keyboardDismissMode="on-drag"
+    onMomentumScrollBegin={[Function bound _onMomentumScrollBeginAndEnd]}
+    onMomentumScrollEnd={[Function bound _onMomentumScrollBeginAndEnd]}
+    onScroll={[Function onScroll]}
+    pagingEnabled={true}
+    scrollEnabled={true}
+    scrollEventThrottle={16}
+    scrollsToTop={false}
+    showsHorizontalScrollIndicator={false}>
+    <View
+      style={
+        Object {
+          "width": 375
+        }
+      }>
+      <View
+        style={
+          Object {
+            "flex": 1
+          }
+        }
+        tabLabel="First page" />
+    </View>
+    <View
+      style={
+        Object {
+          "width": 375
+        }
+      }>
+      <View
+        tabLabel="Second page" />
+    </View>
+  </ScrollView>
+</View>
+`;

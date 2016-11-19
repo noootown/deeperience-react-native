@@ -1,0 +1,3 @@
+/src/**/__mocks__/**
+/src/__mocks__/**
+/src/lib/i18n/*/*.js

@@ -1,0 +1,80 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "installedESLint": true,
+  "env": {
+    "browser": true,
+    "jest": true,
+    "mocha": true
+  },
+  "plugins": [
+    "standard",
+    "promise",
+    "react",
+    "import"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "max-len": ["error", { "code": 120, "ignoreComments": true, "ignoreUrls": true }],
+    "space-before-function-paren": ["error", "never"],
+    "comma-dangle": ["error", "always-multiline"],
+    "handle-callback-err": "warn",
+    "no-multi-spaces": "off",
+    "operator-linebreak": ["error", "after"],
+    "no-var":"error",
+    "no-new-object":"error",
+    "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+    "new-parens": "error",
+    "prefer-const": ["error", {}],
+    "object-shorthand": ["error", "always"],
+    "quote-props": ["error", "as-needed"],
+    "no-array-constructor": "error",
+    "no-useless-constructor": "error",
+    "array-callback-return": "error",
+    "prefer-template": "error",
+    "no-useless-escape": "error",
+    "wrap-iife": ["error", "outside"],
+    "prefer-rest-params":"error",
+    "no-new-func": "error",
+    "no-param-reassign": "error",
+    "prefer-spread": "error",
+    "arrow-spacing": "error",
+    "prefer-arrow-callback": "error",
+    "no-dupe-class-members":"error",
+    "no-duplicate-imports": "error",
+    "no-iterator": "error",
+    "generator-star-spacing": ["error", {"before": false, "after": true}],
+    "dot-notation": "error",
+    "no-undef": "error",
+    "one-var": ["error", "never"],
+    "eqeqeq": "error",
+    "no-nested-ternary": "off",
+    "eol-last": "error",
+    "padded-blocks": ["error", "never"],
+    "array-bracket-spacing": ["error", "never"],
+    "object-curly-spacing": ["error", "always"],
+    "camelcase": ["off", {"properties": "always"}],
+    "new-cap": "error",
+    "import/no-mutable-exports":"error",
+    "import/imports-first":"error",
+    "no-underscore-dangle": "error",
+    "no-sequences":"off",
+    "jsx-quotes":"error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/prefer-es6-class": "error",
+    "react/jsx-curly-spacing":"error",
+    "react/no-string-refs":"error",
+    "react/jsx-wrap-multilines":"error",
+    "react/self-closing-comp":"error",
+    "react/require-render-return":"error",
+    "react/no-is-mounted":"error"
+  }
+}

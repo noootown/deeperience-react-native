@@ -1,0 +1,277 @@
+exports[`ItemCheckbox if disabled and checked, it should display check-square and text 1`] = `
+<View
+  style={Object {}}>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function bound touchableHandleResponderGrant]}
+    onResponderMove={[Function bound touchableHandleResponderMove]}
+    onResponderRelease={[Function bound touchableHandleResponderRelease]}
+    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row"
+      }
+    }
+    testID={undefined}>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "white",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "height": 16,
+            "justifyContent": "center",
+            "width": 16
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "black"
+          },
+          Object {}
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "black",
+              "fontFamily": "FontAwesome",
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "normal"
+            },
+            undefined
+          ]
+        }>
+        
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 15,
+          "marginLeft": 5
+        }
+      }>
+      TextShouldDisplay
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ItemCheckbox if disabled and not checked, it should display square-o and text 1`] = `
+<View
+  style={Object {}}>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function bound touchableHandleResponderGrant]}
+    onResponderMove={[Function bound touchableHandleResponderMove]}
+    onResponderRelease={[Function bound touchableHandleResponderRelease]}
+    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row"
+      }
+    }
+    testID={undefined}>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "white",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "height": 16,
+            "justifyContent": "center",
+            "width": 16
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "black"
+          },
+          Object {}
+        ]
+      } />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 15,
+          "marginLeft": 5
+        }
+      }>
+      TextShouldDisplay
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ItemCheckbox if not disabled and checked, it should display check-square and text 1`] = `
+<View
+  style={Object {}}>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function bound touchableHandleResponderGrant]}
+    onResponderMove={[Function bound touchableHandleResponderMove]}
+    onResponderRelease={[Function bound touchableHandleResponderRelease]}
+    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row"
+      }
+    }
+    testID={undefined}>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "white",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "height": 16,
+            "justifyContent": "center",
+            "width": 16
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "black"
+          },
+          Object {}
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "black",
+              "fontFamily": "FontAwesome",
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "normal"
+            },
+            undefined
+          ]
+        }>
+        
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 15,
+          "marginLeft": 5
+        }
+      }>
+      TextShouldDisplay
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ItemCheckbox if not disabled and not checked, it should display square-o and text 1`] = `
+<View
+  style={Object {}}>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function bound touchableHandleResponderGrant]}
+    onResponderMove={[Function bound touchableHandleResponderMove]}
+    onResponderRelease={[Function bound touchableHandleResponderRelease]}
+    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row"
+      }
+    }
+    testID={undefined}>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "white",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "height": 16,
+            "justifyContent": "center",
+            "width": 16
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "black"
+          },
+          Object {}
+        ]
+      } />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 15,
+          "marginLeft": 5
+        }
+      }>
+      TextShouldDisplay
+    </Text>
+  </View>
+</View>
+`;

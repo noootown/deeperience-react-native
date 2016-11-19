@@ -1,0 +1,8 @@
+keystore(
+  name = 'production',
+  store = 'deeperience.keystore',
+  properties = 'debug.keystore.properties',
+  visibility = [
+    'PUBLIC',
+  ],
+)

@@ -1,0 +1,54 @@
+exports[`test FormButton 1`] = `
+<View
+  accessibilityComponentType="button"
+  accessibilityLabel={undefined}
+  accessibilityTraits="button"
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function bound touchableHandleResponderGrant]}
+  onResponderMove={[Function bound touchableHandleResponderMove]}
+  onResponderRelease={[Function bound touchableHandleResponderRelease]}
+  onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+  onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+  onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "white",
+      "borderColor": "white",
+      "borderRadius": 20,
+      "borderWidth": 1,
+      "height": 40,
+      "marginTop": 15,
+      "opacity": 1,
+      "padding": 5
+    }
+  }
+  testID={undefined}>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#007aff",
+          "fontFamily": "HelveticaNeue-Medium",
+          "fontSize": 17,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        null,
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#F78B6D"
+        },
+        null
+      ]
+    }>
+    TestString
+  </Text>
+</View>
+`;
