@@ -43,7 +43,7 @@
     "precommit": "npm run lint && flow && npm run test",
     "start": "react-native start",
     "lint": "./node_modules/.bin/eslint --config=./.eslintrc.json ./src",
-    "fix-lint": "/usr/local/bin/eslint --fix ./src",
+    "fix-lint": "./node_modules/.bin/eslint --fix ./src",
     "test:watch": "npm run test -- --watch",
     "test-chrome": "node-debug --preload false --nodejs --harmony jest --runInBand",
     "docs": "./node_modules/docker/docker -w -i src/ -o ../snowflake-pages "

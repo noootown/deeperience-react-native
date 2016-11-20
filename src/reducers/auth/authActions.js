@@ -97,7 +97,7 @@ export function logoutFailure(error: any) {
 
 export function logout() {
   return {
-    type: LOGOUT_START, //redux saga action
+    type: LOGOUT_START,
   }
 }
 
@@ -152,14 +152,14 @@ export function loginRequest() {
   }
 }
 
-export function loginSuccess(json:any) { // TODO
+export function loginSuccess(json:any) {
   return {
     type: LOGIN_SUCCESS,
     payload: json,
   }
 }
 
-export function loginFailure(error:any) { // TODO
+export function loginFailure(error:any) {
   return {
     type: LOGIN_FAILURE,
     payload: error,
@@ -179,7 +179,7 @@ export function login(email:string, password:string) {
 /**
  * ### Social Login Actions
  */
-export function loginWithSocial(authProvider:any) { // TODO
+export function loginWithSocial(authProvider:any) {
   return {
     type: LOGIN_SOCIAL,
     payload: { authProvider },
@@ -209,7 +209,7 @@ export function resetPasswordSuccess() {
   }
 }
 
-export function resetPasswordFailure(error:any) { // TODO
+export function resetPasswordFailure(error:any) {
   return {
     type: RESET_PASSWORD_FAILURE,
     payload: error,

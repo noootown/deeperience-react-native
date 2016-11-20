@@ -68,9 +68,9 @@ class LoginMain extends React.Component {
             <Text style={styles.title}>{I18n.t('LoginMain.deeperience')}</Text>
           </View>
           <View style={{ flex: 3,
-                        alignSelf: 'stretch',
-                        flexDirection: 'column',
-                        paddingTop: 10 }}
+            alignSelf: 'stretch',
+            flexDirection: 'column',
+            paddingTop: 10 }}
           >
             {
               this.props.device.platform === 'ios' ? (
@@ -129,9 +129,9 @@ class LoginMain extends React.Component {
             </TouchableOpacity>
           </View>
           <View style={{ flex: 1,
-                        flexDirection: 'column',
-                        justifyContent: 'flex-end',
-                        alignSelf: 'stretch' }}>
+            flexDirection: 'column',
+            justifyContent: 'flex-end',
+            alignSelf: 'stretch' }}>
             <Text style={styles.serviceText}>{I18n.t('LoginMain.serviceText')}</Text>
           </View>
         </View>

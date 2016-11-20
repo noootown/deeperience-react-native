@@ -21,10 +21,4 @@ export default {
   tabView: {
 
   },
-  TripSiteButton: {
-    btnRadius: 7,
-    btnBigRadius: 14,
-    btnDiameter: 14,
-    btnBigDiameter: 28,
-  },
 }

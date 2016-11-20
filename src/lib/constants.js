@@ -55,57 +55,6 @@ export default keyMirror({
 
   FB_LOGIN_START: null,
 
-  // ----------trip----------
-  GET_ALL_TRIP: null,
-  GET_ALL_TRIP_SUCCESS: null,
-  GET_ALL_TRIP_FAILURE: null,
-  GET_TRIP_BY_CLASS: null,
-
-  SET_TRIP_KEY: null,
-
-  GET_TRIP_CONTENT: null,
-  GET_TRIP_CONTENT_SUCCESS: null,
-  GET_TRIP_CONTENT_FAILURE: null,
-
-  SET_SITE_CONTENT_SUCCESS: null,
-  SET_SITE_CONTENT_FAILURE: null,
-
-  SET_SITE_STATUS: null,
-
-  SET_DISPLAY_INFO: null,
-  CLOSE_DISPLAY_INFO: null,
-
-  ACTIVATE_SITE_BTN: null,
-  DEACTIVATE_SITE_BTN: null,
-
-  SET_MAP_INFO: null,
-  SET_MAP_INFO_SUCCESS: null,
-  SET_MAP_INFO_FAILURE: null,
-
-  SET_MAP_DIRECTION: null,
-  SET_MAP_DIRECTION_SUCCESS: null,
-  SET_MAP_DIRECTION_FAILURE: null,
-
-  SET_AUDIO: null,
-  RESET_AUDIO: null,
-
-  GET_DISPLAY_INFO_DIRECTION_START: null,
-
-  SET_DISPLAY_INFO_TRANSIT: null,
-  SET_DISPLAY_INFO_TRANSIT_SUCCESS: null,
-  SET_DISPLAY_INFO_TRANSIT_FAILURE: null,
-  TOGGLE_DISPLAY_INFO: null,
-  TOGGLE_SIDEBAR: null,
-
-  TOGGLE_MAP_MODE: null,
-  TOGGLE_CONTENT_MODE: null,
-
-  SWITCH_DISPLAY_INFO_CARD: null,
-
-  PRESS_MARKER_FAILURE: null,
-
-  CLEAR_TRIP_LOCAL_STORAGE: null,
-
   // ----------main---------
   LOAD_APP: null,
 

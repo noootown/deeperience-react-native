@@ -64,8 +64,8 @@ const ItemCheckbox = ({
         </View>
         <Text
           style={{ color,
-                   marginLeft: 5,
-                   fontSize: iconSize + 1 }}
+            marginLeft: 5,
+            fontSize: iconSize + 1 }}
         >
           {text}
         </Text>

@@ -36,18 +36,18 @@ export default function authReducer(state = initialState, action) {
       if (action.payload.type === RESIDENT_FEE) {
         return state.setIn(['residentFee'], action.payload.fee)
                     .setIn(['allFee'], [(action.payload.fee[0] + tripFee[0]) * day,
-                                        (action.payload.fee[1] + tripFee[1]) * day])
+                      (action.payload.fee[1] + tripFee[1]) * day])
       } else if (action.payload.type === TRIP_FEE) {
         return state.setIn(['tripFee'], action.payload.fee)
                     .setIn(['allFee'], [(action.payload.fee[0] + residentFee[0]) * day,
-                                        (action.payload.fee[1] + residentFee[1]) * day])
+                      (action.payload.fee[1] + residentFee[1]) * day])
       }
       return state
 
     case SET_DAY:
       return state.setIn(['day'], action.payload.day)
                   .setIn(['allFee'], [(tripFee[0] + residentFee[0]) * action.payload.day,
-                                      (tripFee[1] + residentFee[1]) * action.payload.day])
+                    (tripFee[1] + residentFee[1]) * action.payload.day])
     case SET_HOTEL_TYPE:
       return state.setIn(['hotelType'], action.payload.type)
 

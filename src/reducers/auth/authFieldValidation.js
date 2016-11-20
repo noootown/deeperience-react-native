@@ -113,7 +113,7 @@ export default function fieldValidation(state, action) {
      */
     case 'passwordAgain':
       const validPasswordAgain = _.isUndefined(validate({ password: state.form.fields.password,
-                                confirmPassword: value }, passwordAgainConstraints))
+        confirmPassword: value }, passwordAgainConstraints))
       if (validPasswordAgain) {
         return state.setIn(['form', 'fields', 'passwordAgainHasError'],
                          false)
@@ -131,7 +131,7 @@ export default function fieldValidation(state, action) {
      */
     case 'showPassword':
       return state.setIn(['form', 'fields',
-                                'showPassword'], value)
+        'showPassword'], value)
   }
   return state
 }
