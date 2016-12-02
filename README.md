@@ -5,6 +5,15 @@ This boilerplate was inspired by boilerplates below
 - [este](https://github.com/este/este)
 - [snowflake](https://github.com/bartonhammond/snowflake)
 
+## Books
+
+#### Online books 
+
+- [Chinese (Traditional)](https://noootown.gitbooks.io/deeperience-react-native-boilerplate/content/)
+
+#### Repository 
+- [Chinese (Traditional)](https://github.com/noootown/book-deeperience-react-native)
+
 ## Techniques
 - [Reactjs](https://facebook.github.io/react/) & [React Native](https://facebook.github.io/react-native/)
 - [Firebase](https://firebase.google.com/?hl=zh-TW)
