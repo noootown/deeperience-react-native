@@ -75,7 +75,6 @@ react-native run-android
 #### iOS
 ```
 react-native run-ios
-
 ```
 
 ## Other Useful Script
