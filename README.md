@@ -36,6 +36,7 @@ This boilerplate was inspired by boilerplates below
 - Git Precommit test
 - iOS & Android Custom Style
 - Local storage
+- Redux logger
 - [Font awesome](http://fontawesome.io/)
 
 ## Installation
