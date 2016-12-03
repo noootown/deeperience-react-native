@@ -1,8 +1,7 @@
 {
-  "name": "deeperience",
-  "version": "0.0.1",
-  "private": true,
-  "description": "deeperience app",
+  "name": "deeperience-react-native",
+  "version": "1.0.0",
+  "description": "Deeperience app",
   "jest": {
     "preset": "jest-react-native",
     "moduleNameMapper": {
@@ -31,9 +30,25 @@
       ]
     }
   },
+  "keywords": [
+    "react-native",
+    "deeperience",
+    "react",
+    "redux",
+    "redux-thunk",
+    "redux-saga",
+    "react-native-router-flux",
+    "boilerplate",
+    "android",
+    "ios",
+    "i18n",
+    "mongo",
+    "livereload",
+    "es6"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/deeperience/deeperience-app.git"
+    "url": "https://github.com/noootown/deeperience-react-native"
   },
   "scripts": {
     "test": "jest && npm run mocha",
