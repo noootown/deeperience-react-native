@@ -126,6 +126,17 @@ npm run precommit
 
 - [Generating singed APK](https://facebook.github.io/react-native/docs/signed-apk-android.html)
 
+## Way to Go
+
+#### v1.0+ 
+- [ ] Travis Testing 
+- [ ] Logo
+- [ ] Redux form or a better form system
+- [ ] Mongodb Better Integration
+- [ ] Strict file and function comment
+- [ ] Better ESlint Rule
+- [ ] Better CSS style like sass or postcss 
+
 ## LICENSE
 
 #### MIT
