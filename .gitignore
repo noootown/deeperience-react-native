@@ -36,6 +36,7 @@ local.properties
 #
 npm-debug.log
 node_modules/
+yarn.lock
 # jest
 coverage/
 
