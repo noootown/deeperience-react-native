@@ -136,6 +136,7 @@ npm run precommit
 - [ ] Strict file and function comment
 - [ ] Better ESlint Rule
 - [ ] Better CSS style like sass or postcss 
+- [ ] Better data model design
 
 ## LICENSE
 

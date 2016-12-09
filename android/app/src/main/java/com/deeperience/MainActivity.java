@@ -1,7 +1,6 @@
 package com.deeperience;
 
 import com.facebook.react.ReactActivity;
-import com.horcrux.svg.RNSvgPackage;
 import com.burnweb.rnsimplealertdialog.RNSimpleAlertDialogPackage;
 import com.burnweb.rnsimplealertdialog.RNSimpleAlertDialogPackage;
 

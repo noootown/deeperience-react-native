@@ -3,10 +3,6 @@ rootProject.name = 'snowflake'
 include ':app'
 include ':react-native-simpledialog-android'
 project(':react-native-simpledialog-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-simpledialog-android/android')
-include ':react-native-svg'
-project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
-include ':react-native-simpledialog-android'
-project(':react-native-simpledialog-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-simpledialog-android/android')
 include ':react-native-i18n'
 project(':react-native-i18n').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-i18n/android')
 include ':RNSimpleAlertDialogModule', ':app'
@@ -15,7 +11,3 @@ include ':react-native-vector-icons'
 project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
 include ':react-native-facebook-login'
 project(':react-native-facebook-login').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-facebook-login/android')
-include ':react-native-maps'
-project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/android')
-include ':react-native-audio-toolkit'
-project(':react-native-audio-toolkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audio-toolkit/android/lib')
