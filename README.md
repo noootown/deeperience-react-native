@@ -1,5 +1,9 @@
 # Deeperience-React-Native
 
+**IMPORTANT**
+
+**This project is not maintained anymore, since I have no time.**
+
 This boilerplate was inspired by boilerplates below
 
 - [este](https://github.com/este/este)
